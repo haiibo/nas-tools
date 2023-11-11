@@ -478,11 +478,6 @@ class SiteConf:
     }
     # 公共BT站点
     PUBLIC_TORRENT_SITES = {
-        'rarbg.to': {
-            "parser": "Rarbg",
-            "proxy": True,
-            "language": "en"
-        },
         'dmhy.org': {
             "proxy": True
         },
@@ -517,15 +512,16 @@ class SiteConf:
         'mikanani.me': {
             "proxy": False
         },
+        'www.mp4ba.vip': {
+            "proxy": False,
+            "referer": True
+        },
         'www.miobt.com': {
             "proxy": True
         },
         'katcr.to': {
             "proxy": True,
             "language": "en"
-        },
-        'btsow.quest': {
-            "proxy": True
         },
         'www.comicat.org': {
             "proxy": False
